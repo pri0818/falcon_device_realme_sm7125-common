@@ -50,6 +50,9 @@ persist.wm.enable_remote_keyguard_animation=0
 # DPM
 persist.dpm.feature=1
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 # GBoard
 ro.com.google.ime.kb_pad_port_l=6
 ro.com.google.ime.kb_pad_port_r=6

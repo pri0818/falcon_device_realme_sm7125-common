@@ -50,4 +50,4 @@
 /sys/devices/platform/soc/soc:qcom,kgsl-hyp/subsys[0-9]/restart_level           u:object_r:vendor_sysfs_ssr_toggle:s0
 
 # SecureElement
-/(vendor|odm)/bin/hw/android\.hardware\.secure_element@1\.0-service-disabled      u:object_r:hal_secure_element_default_exec:s0
+/(vendor|odm)/bin/hw/android\.hardware\.secure_element@1\.0-service-disabled u:object_r:hal_secure_element_default_exec:s0

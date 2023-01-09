@@ -188,6 +188,3 @@ persist.vendor.sensors.allow_non_default_discovery=true
 
 # Usb
 persist.vendor.usb.config.extra=none
-
-# Wi-Fi
-wifi.aware.interface=wifi-aware0

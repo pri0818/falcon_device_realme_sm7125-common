@@ -1139,5 +1139,5 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     group graphics drmrpc
     capabilities SYS_NICE
     onrestart restart surfaceflinger
-    writepid /dev/cpuset/system-background/tasks
+    task_profiles ProcessCapacityHigh
     socket pps stream 0660 system system
